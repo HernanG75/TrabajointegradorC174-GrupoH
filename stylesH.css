@@ -6,6 +6,11 @@ header{
     justify-content: space-between; 
     padding: 1px; 
 }
+.datosinfo{
+    text-align: right;
+    
+}
+
 h6{
     color:rgb(34, 102, 43);
 }
@@ -52,14 +57,77 @@ ul{
 }
 h3 {
     color: rgb(28, 85, 26);
-    font-weight: 700;  
+    font-weight: 700;
     font-family: sans-serif;
-    margin-left: 20px;
+    text-align: center;
+
 }
+
+h2{
+    color: rgb(226, 226, 226);
+    background-color: rgb(34, 102, 43);
+
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 100px;
+}
+
+
 .contcenter {
     display: grid;
-    place-content: center;
+  place-content: center  ;
+    
 }
+
+.mat{
+    justify-content: center;
+}
+#textogr{
+    display: flex;
+    justify-content:space-between;
+    color: rgb(28, 85, 26);
+}
+.imggc{
+    margin-left: 50px;
+}
+
+.texbjimggc{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    color: rgb(28, 85, 26);
+}
+
+#textogc{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    color: rgb(28, 85, 26);
+}
+
+#textogcd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(28, 85, 26);
+}
+
+#materiales {
+    text-align: center;
+    margin-left: 50px;
+
+ }
+
+#noreciclables{
+    
+    padding-left:  40px;
+       
+    }
+
+#NOgc{
+    padding-left:  40px;
+}
+
 .cont2 {
     background-color: rgb(226, 226, 226);
     width: 100%;
@@ -68,12 +136,14 @@ h3 {
 .cont3 {
     background-color: rgb(216, 216, 216);
     width: 100%;
-    height: 800px;
+     height: 1110px;
 }
+ 
+
 .cont4 {
     background-color: rgb(226, 226, 226);
     width: 100%;
-    height: 800px;
+    height: 820px;
 }
 .cont5 {
     background-color: rgb(216, 216, 216);
@@ -83,9 +153,7 @@ h3 {
 .navbar {
     background-color: rgb(32, 56, 29);
 }
-.p {
-    text-align: center;
-}
+
 .container {
     font-family: sans-serif;
 }
@@ -134,3 +202,4 @@ a:hover {
 .home{
     margin-left: 25px;
 }
+
