@@ -160,9 +160,7 @@ h2{
 #c{
     color: rgb(28, 85, 26);
 }
-footer{
-    justify-content: space-between; 
-}
+
 .barrafin{
     background-color: rgb(34, 102, 43);
     height: 25px;
@@ -183,11 +181,6 @@ footer{
     font-weight: 700; 
     color: rgb(34, 102, 43);
 } 
-
-.final{
-    display: flex;
-    justify-content: space-between; 
-}
 a:link {
     text-decoration:none;
 }
@@ -202,4 +195,33 @@ a:hover {
 .home{
     margin-left: 25px;
 }
+.final p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer2{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: double;
+    border-color: rgb(44, 42, 40);
+}
 
+.pie {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+}
+
+.nosotros a{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
