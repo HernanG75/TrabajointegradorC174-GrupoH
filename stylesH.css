@@ -1,4 +1,5 @@
 header{ 
+    flex-direction: column;
     font-family: sans-serif; 
     margin: 0px; 
     display: flex; 
@@ -7,8 +8,8 @@ header{
     padding: 1px; 
 }
 .datosinfo{
+    margin-left: 630px;
     text-align: right;
-    
 }
 
 h6{
@@ -16,8 +17,8 @@ h6{
 }
 
 .lg1 {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    flex-direction: row;
 }
 
 .lg1 img{ 
@@ -38,12 +39,14 @@ ul{
 
 .cont1 {
     display: grid;
+    margin-top: 25px;
     place-content: center;
     background-color: rgb(216, 216, 216);
     width: 100%;
     height: 500px;
 }
 .d1 {
+padding-top: 5px;
     background-color: rgb(226, 226, 226);
     width: 100%;
     height: 100px;
@@ -77,6 +80,10 @@ h2{
     display: grid;
   place-content: center  ;
     
+}
+
+.textalin{
+    text-align: center;
 }
 
 .mat{
