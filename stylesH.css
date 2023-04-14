@@ -3,7 +3,7 @@ header{
     font-family: sans-serif; 
     margin: 0px; 
     display: flex; 
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(181, 216, 195); 
     justify-content: space-between; 
     padding: 1px; 
 }
@@ -47,7 +47,7 @@ ul{
 }
 .d1 {
 padding-top: 5px;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(181, 216, 195);
     width: 100%;
     height: 100px;
 }
@@ -56,6 +56,7 @@ padding-top: 5px;
     font-size: xx-large;
     font-weight: 700;  
     font-family: sans-serif;
+    text-align: left;
     margin-left: 20px;
 }
 h3 {
@@ -67,27 +68,41 @@ h3 {
 }
 
 h2{
+    text-align: center;
     color: rgb(226, 226, 226);
     background-color: rgb(34, 102, 43);
-
-    text-align: center;
-    margin-left: 130px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
 .contcenter {
     display: grid;
-  place-content: center  ;
-    
+    place-content: center  ;
+      
+  }
+.contcenter2 {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
 }
 
 .textalin{
+    margin-left: 250px;
+    padding: 0px; 
+    width: 60%; 
+    height: 60px ;
     text-align: center;
+    color: rgb(28, 85, 26);
 }
 
 .mat{
     justify-content: center;
+}
+.text1gr{
+    display: grid;
+    text-align: center;
+    color: rgb(28, 85, 26);
 }
 #textogr{
     display: flex;
@@ -95,7 +110,7 @@ h2{
     color: rgb(28, 85, 26);
 }
 .imggc{
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 .texbjimggc{
@@ -103,6 +118,7 @@ h2{
     justify-content:space-between;
     text-align: center;
     color: rgb(28, 85, 26);
+    margin-right: 80px;
 }
 
 #textogc{
@@ -143,7 +159,7 @@ h2{
 .cont3 {
     background-color: rgb(216, 216, 216);
     width: 100%;
-     height: 1110px;
+    height: 950px;
 }
  
 
@@ -207,27 +223,289 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-.footer2{
-    background: rgb(255, 255, 255);
+#cajauno { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 200px ; 
+} 
+#cajauno h1 {
+    text-align: center;
+    color: rgb(28, 85, 26);
+    font-size: xx-large;
+}
+#cajauno p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+
+#cajados { 
+    margin: 20px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajados p {
+     font-family: sans-serif; 
+     color: rgb(28, 85, 26);
+     text-align: justify; 
+}
+#cajatres { 
+    margin:25px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajatres p {
+    font-family: sans-serif;
+    color: rgb(28, 85, 26);
+    text-align: justify; 
+}
+#cajacuatro {
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajacuatro p {
+    font-family: sans-serif;
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajacinco { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajacinco p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+
+#cajaseis { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px;
+    height: 100px ; 
+} 
+#cajaseis p {
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajaunom {
+    margin: 30px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 140px; 
+    height: 90px ; 
+} 
+#cajaunom h1 { 
+    text-align: center;
+    color: rgb(28, 85, 26);
+    font-size: x-large ;
+ }
+#cajaunom p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajadosm { 
+    margin: 80px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 140px; 
+    height: 50px ; 
+} 
+#cajadosm h1 {
+     text-align: center;
+     color: rgb(28, 85, 26);
+     font-size: x-large; 
+}    
+#cajadosm p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+
+#cajatresm { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 140px; 
+    height: 70px ; 
+} 
+#cajatresm h1 { 
+    text-align: center;
+    color: rgb(28, 85, 26);
+    font-size:x-large ; 
+}    
+#cajatresm p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+
+#cajacuatrom { 
+    margin: 50px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 140px; 
+    height: 60px ; 
+} 
+#cajacuatrom h1 { 
+    text-align: center;
+    color: rgb(28, 85, 26);
+    font-size: x-large ; }    
+#cajacuatrom p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajacincom { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 140px; 
+    height: 100px ; 
+} 
+#cajacincom h1 { 
+    text-align: center;
+    color: rgb(28, 85, 26);
+    font-size: x-large ; 
+}    
+#cajacincom p {
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajaseism { 
+    margin: 0px 100px; 
+    padding: 0px; background-color: rgb(216, 216, 216);
+    width: 140px; 
+    height: 100px ; 
+} 
+#cajaseism h1 { 
+    text-align: center;
+    color: rgb(28, 85, 26);
+    font-size: x-large ; }    
+#cajaseism p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajaunonr { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 200px ; 
+} 
+#cajaunonr h1 {
+    text-align: center;
+    color: rgb(28, 85, 26);
+    font-size: x-large ; 
+}
+#cajaunonr p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajadosnr { 
+    margin: 20px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajadosnr p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajatresnr { 
+    margin: 25px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajatresnr p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajacuatronr { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajacuatronr p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajacinconr { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajacinconr p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+#cajaseisnr { 
+    margin: 0px 100px; 
+    padding: 0px; 
+    background-color: rgb(216, 216, 216);
+    width: 260px; 
+    height: 100px ; 
+} 
+#cajaseisnr p { 
+    font-family: sans-serif; 
+    color: rgb(28, 85, 26); 
+    text-align: justify; 
+}
+.guiarec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(28, 85, 26);
+}
+.footer{
+    background: rgb(181, 216, 195);;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-style: double;
-    border-color: rgb(44, 42, 40);
-}
-
-.pie {
+} 
+.pie img{
+    display:inline-block;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 10px;
-    display: flex;
-    justify-content: center; 
+    margin-bottom: 10px;
+    padding: 1px;
+    object-fit: cover;
 }
-
 .nosotros a{
     display: inline-block;
     flex-direction: column;
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 5px;
     padding: 0 20px;
     text-decoration: none;
